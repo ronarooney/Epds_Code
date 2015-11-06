@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EPDS_HP</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Friends</string>
+    <string name="nav_item_notifications">Messages</string>
+
+    <!-- navigation drawer item labels -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_notifications</item>
+    </string-array>
+
+    <string name="title_messages">Messages</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_home">Home</string>
+    <string name="title_activity_inspector">Inspector</string>
+    <string name="title_activity_inspect">Inspect</string>
+    <string name="title_activity_ration_details">RationDetails</string>
+    <string name="title_activity_ration">Ration</string>
+    <string name="title_activity_details">Details</string>
+    <string name="title_activity_ration__details">Ration_Details</string>
+    <string name="title_activity_member_details">MemberDetails</string>
+    <string name="title_activity_member__details">Member_Details</string>
+    <string name="title_activity_price_monitoring">PriceMonitoring</string>
+    <string name="title_activity_grain">GrainActivity</string>
+    <string name="title_activity_pulses_oil">PulsesOil</string>
+    <string name="title_activity_vegetable">Vegetable</string>
+    <string name="title_activity_other">Other</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_shimla_office">ShimlaOffice</string>
+    <string name="title_activity_am_office">AmOffice</string>
+    <string name="title_activity_dm_office">DmOffice</string>
+    <string name="title_activity_inspector_data">InspectorData</string>
+    <string name="title_activity_inspector_office">InspectorOffice</string>
+    <string name="title_activity_nation_distribution">NationDistribution</string>
+    <string name="title_activity_principal_distribution_centre">PrincipalDistributionCentre</string>
+    <string name="title_activity_fair_price_shop">FairPriceShop</string>
+    <string name="title_activity_epds_centre">EpdsCentre</string>
+    <string name="title_activity_phone_search">PhoneSearch</string>
+    <string name="title_activity_phone_details">PhoneDetails</string>
+    <string name="title_activity_adhar_search">AdharSearch</string>
+    <string name="title_activity_adhar_details">AdharDetails</string>
+
+</resources>

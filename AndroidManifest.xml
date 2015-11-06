@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.epds_new"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DfscData"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Inspect"
+            android:label="@string/title_activity_inspect" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Details"
+            android:label="@string/title_activity_details" >
+        </activity>
+        <activity
+            android:name=".Ration_Details"
+            android:label="@string/title_activity_ration__details" >
+        </activity>
+        <activity
+            android:name=".Member_Details"
+            android:label="@string/title_activity_member__details" >
+        </activity>
+        <activity
+            android:name=".ScreenSlidePageFragment"
+            android:label="@string/title_activity_member__details" >
+        </activity>
+        <activity
+            android:name=".PriceMonitoring"
+            android:label="@string/title_activity_price_monitoring" >
+        </activity>
+        <activity
+            android:name=".GrainActivity"
+            android:label="@string/title_activity_grain" >
+        </activity>
+        <activity
+            android:name=".PulsesOil"
+            android:label="@string/title_activity_pulses_oil" >
+        </activity>
+        <activity
+            android:name=".Vegetable"
+            android:label="@string/title_activity_vegetable" >
+        </activity>
+        <activity
+            android:name=".Other"
+            android:label="@string/title_activity_other" >
+        </activity>
+        <activity
+            android:name=".Map"
+            android:label="@string/title_activity_map" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBg1ucV-ib3dGl6Qxy-eoF1TA7ACqvtzfQ" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".ShimlaOffice"
+            android:label="Dfsc Office" >
+        </activity>
+        <activity
+            android:name=".AmOffice"
+            android:label="@string/title_activity_am_office" >
+        </activity>
+        <activity
+            android:name=".DmOffice"
+            android:label="@string/title_activity_dm_office" >
+        </activity>
+        <activity
+            android:name=".InspectorData"
+            android:label="@string/title_activity_inspector_data" >
+        </activity>
+        <activity
+            android:name=".InspectorOffice"
+            android:label="@string/title_activity_inspector_office" >
+        </activity>
+        <activity
+            android:name=".NationDistribution"
+            android:label="@string/title_activity_nation_distribution" >
+        </activity>
+        <activity
+            android:name=".PrincipalDistributionCentre"
+            android:label="@string/title_activity_principal_distribution_centre" >
+        </activity>
+        <activity
+            android:name=".FairPriceShop"
+            android:label="@string/title_activity_fair_price_shop" >
+        </activity>
+        <activity
+            android:name=".EpdsCentre"
+            android:label="@string/title_activity_epds_centre" >
+        </activity>
+        <activity
+            android:name=".PhoneSearch"
+            android:label="@string/title_activity_phone_search" >
+        </activity>
+        <activity
+            android:name=".PhoneDetails"
+            android:label="@string/title_activity_phone_details" >
+        </activity>
+        <activity
+            android:name=".AdharSearch"
+            android:label="@string/title_activity_adhar_search" >
+        </activity>
+        <activity
+            android:name=".AdharDetails"
+            android:label="@string/title_activity_adhar_details" >
+        </activity>
+    </application>
+
+</manifest>

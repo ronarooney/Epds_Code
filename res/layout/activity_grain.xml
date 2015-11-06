@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f"
+    android:gravity="center_vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.epds_new.GrainActivity" >
+
+    <TextView
+        android:id="@+id/atta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:background="@drawable/price"
+        android:gravity="center"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:text="Rice Permal"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/ricePermal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/atta"
+        android:layout_alignBottom="@+id/atta"
+        android:layout_alignLeft="@+id/textView1"
+        android:background="@drawable/price"
+        android:gravity="center"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ricePermal"
+        android:layout_below="@+id/ricePermal"
+        android:text="Sugar"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignLeft="@+id/atta"
+        android:layout_marginLeft="18dp"
+        android:text="Atta"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/sugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:background="@drawable/price"
+        android:layout_below="@+id/textView3"
+        android:text="" 
+           android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sugar"
+        android:layout_alignLeft="@+id/textView2"
+        android:text="Wheat" />
+
+    <TextView
+        android:id="@+id/wheat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/atta"
+        android:layout_alignTop="@+id/sugar"
+        android:background="@drawable/price"
+        android:gravity="center"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sugar"
+        android:layout_below="@+id/sugar"
+        android:textColor="#ffffff"
+        android:text="Atta Chakki" />
+
+    <TextView
+        android:id="@+id/attaChakki"
+        android:background="@drawable/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:gravity="center"
+        android:layout_below="@+id/textView5"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/wheat"
+        android:layout_below="@+id/wheat"
+        android:text="Atta Whole Meal"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/attaWholeMeal"
+        android:background="@drawable/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignLeft="@+id/wheat"
+        android:layout_below="@+id/textView6"
+        android:text="" />
+
+</RelativeLayout>

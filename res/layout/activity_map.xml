@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context="com.example.epds_new.Map" >
+
+    <Button
+        android:id="@+id/amOff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/dfscShimla"
+     
+        android:background="#ffffff"
+        android:text="AM Office" />
+
+    <Button
+        android:id="@+id/dmOff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/amOff"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:text="DM Office" />
+
+    <Button
+        android:id="@+id/dfscShimla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:text="DFSC Office" />
+
+    <Button
+        android:id="@+id/inspectorOffice"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dmOff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="InspectorOffice" />
+
+    <Button
+        android:id="@+id/nationalDistributionOffice"
+        android:layout_width="match_parent"	
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inspectorOffice"
+    	android:background="#ffffff"
+    	android:layout_marginTop="10dp"
+        android:text="National Distribution Center" />
+
+    <Button
+        android:id="@+id/pdc"
+        android:layout_width="match_parent"	
+        android:background="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nationalDistributionOffice"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Principal Distribution Centre" />
+
+    <Button
+        android:id="@+id/fairPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+ 	android:background="#ffffff"
+        android:layout_below="@+id/pdc"
+      android:layout_marginTop="10dp"
+        android:text="Fair Price Shop" />
+   
+</LinearLayout>
